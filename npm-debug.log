@@ -1,0 +1,650 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gitbook-plugin-autocover' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose cache add [ 'gitbook-plugin-autocover', null ]
+5 verbose cache add name=undefined spec="gitbook-plugin-autocover" args=["gitbook-plugin-autocover",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gitbook-plugin-autocover',
+6 verbose parsed url   path: 'gitbook-plugin-autocover',
+6 verbose parsed url   href: 'gitbook-plugin-autocover' }
+7 silly lockFile ccb91afe-gitbook-plugin-autocover gitbook-plugin-autocover
+8 verbose lock gitbook-plugin-autocover /Users/harshit/.npm/ccb91afe-gitbook-plugin-autocover.lock
+9 silly lockFile ccb91afe-gitbook-plugin-autocover gitbook-plugin-autocover
+10 silly lockFile ccb91afe-gitbook-plugin-autocover gitbook-plugin-autocover
+11 verbose addNamed [ 'gitbook-plugin-autocover', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 3d8a05b5-gitbook-plugin-autocover gitbook-plugin-autocover@
+14 verbose lock gitbook-plugin-autocover@ /Users/harshit/.npm/3d8a05b5-gitbook-plugin-autocover.lock
+15 silly addNameRange { name: 'gitbook-plugin-autocover', range: '*', hasData: false }
+16 verbose registry.get gitbook-plugin-autocover not expired, no request
+17 silly addNameRange number 2 { name: 'gitbook-plugin-autocover', range: '*', hasData: true }
+18 silly addNameRange versions [ 'gitbook-plugin-autocover',
+18 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5' ] ]
+19 verbose addNamed [ 'gitbook-plugin-autocover', '0.0.5' ]
+20 verbose addNamed [ '0.0.5', '0.0.5' ]
+21 silly lockFile b607a33a-gitbook-plugin-autocover-0-0-5 gitbook-plugin-autocover@0.0.5
+22 verbose lock gitbook-plugin-autocover@0.0.5 /Users/harshit/.npm/b607a33a-gitbook-plugin-autocover-0-0-5.lock
+23 silly lockFile b607a33a-gitbook-plugin-autocover-0-0-5 gitbook-plugin-autocover@0.0.5
+24 silly lockFile b607a33a-gitbook-plugin-autocover-0-0-5 gitbook-plugin-autocover@0.0.5
+25 silly lockFile 3d8a05b5-gitbook-plugin-autocover gitbook-plugin-autocover@
+26 silly lockFile 3d8a05b5-gitbook-plugin-autocover gitbook-plugin-autocover@
+27 silly resolved [ { name: 'gitbook-plugin-autocover',
+27 silly resolved     description: 'Generate a cover for a gitbook',
+27 silly resolved     main: 'index.js',
+27 silly resolved     version: '0.0.5',
+27 silly resolved     engines: { gitbook: '*' },
+27 silly resolved     dependencies: { canvas: '1.1.3', lodash: '2.4.1', q: '1.0.1' },
+27 silly resolved     homepage: 'https://github.com/GitbookIO/plugin-autocover',
+27 silly resolved     repository:
+27 silly resolved      { type: 'git',
+27 silly resolved        url: 'https://github.com/GitbookIO/plugin-autocover.git' },
+27 silly resolved     license: 'Apache 2',
+27 silly resolved     bugs: { url: 'https://github.com/GitbookIO/plugin-autocover/issues' },
+27 silly resolved     _id: 'gitbook-plugin-autocover@0.0.5',
+27 silly resolved     dist:
+27 silly resolved      { shasum: '5b6c5d3c6dd5743f613a9a98ba08864e6cff6d93',
+27 silly resolved        tarball: 'http://registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-0.0.5.tgz' },
+27 silly resolved     _from: 'gitbook-plugin-autocover@',
+27 silly resolved     _npmVersion: '1.4.3',
+27 silly resolved     _npmUser: { name: 'samypesse', email: 'samypesse@gmail.com' },
+27 silly resolved     maintainers: [ [Object] ],
+27 silly resolved     directories: {},
+27 silly resolved     _shasum: '5b6c5d3c6dd5743f613a9a98ba08864e6cff6d93',
+27 silly resolved     _resolved: 'https://registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-0.0.5.tgz',
+27 silly resolved     readme: 'ERROR: No README data found!' } ]
+28 info install gitbook-plugin-autocover@0.0.5 into /Users/harshit
+29 info installOne gitbook-plugin-autocover@0.0.5
+30 info /Users/harshit/node_modules/gitbook-plugin-autocover unbuild
+31 verbose tar unpack /Users/harshit/.npm/gitbook-plugin-autocover/0.0.5/package.tgz
+32 silly lockFile 04f44b8f-modules-gitbook-plugin-autocover tar:///Users/harshit/node_modules/gitbook-plugin-autocover
+33 verbose lock tar:///Users/harshit/node_modules/gitbook-plugin-autocover /Users/harshit/.npm/04f44b8f-modules-gitbook-plugin-autocover.lock
+34 silly lockFile 0cba6ce8-ugin-autocover-0-0-5-package-tgz tar:///Users/harshit/.npm/gitbook-plugin-autocover/0.0.5/package.tgz
+35 verbose lock tar:///Users/harshit/.npm/gitbook-plugin-autocover/0.0.5/package.tgz /Users/harshit/.npm/0cba6ce8-ugin-autocover-0-0-5-package-tgz.lock
+36 silly gunzTarPerm modes [ '755', '644' ]
+37 silly gunzTarPerm extractEntry package.json
+38 silly gunzTarPerm extractEntry .npmignore
+39 silly gunzTarPerm extractEntry README.md
+40 silly gunzTarPerm extractEntry LICENSE
+41 silly gunzTarPerm extractEntry index.js
+42 silly lockFile 04f44b8f-modules-gitbook-plugin-autocover tar:///Users/harshit/node_modules/gitbook-plugin-autocover
+43 silly lockFile 04f44b8f-modules-gitbook-plugin-autocover tar:///Users/harshit/node_modules/gitbook-plugin-autocover
+44 silly lockFile 0cba6ce8-ugin-autocover-0-0-5-package-tgz tar:///Users/harshit/.npm/gitbook-plugin-autocover/0.0.5/package.tgz
+45 silly lockFile 0cba6ce8-ugin-autocover-0-0-5-package-tgz tar:///Users/harshit/.npm/gitbook-plugin-autocover/0.0.5/package.tgz
+46 info preinstall gitbook-plugin-autocover@0.0.5
+47 verbose readDependencies using package.json deps
+48 verbose readDependencies using package.json deps
+49 verbose cache add [ 'canvas@1.1.3', null ]
+50 verbose cache add name=undefined spec="canvas@1.1.3" args=["canvas@1.1.3",null]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: 'canvas@1.1.3',
+51 verbose parsed url   path: 'canvas@1.1.3',
+51 verbose parsed url   href: 'canvas@1.1.3' }
+52 verbose cache add [ 'lodash@2.4.1', null ]
+53 verbose cache add name=undefined spec="lodash@2.4.1" args=["lodash@2.4.1",null]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: 'lodash@2.4.1',
+54 verbose parsed url   path: 'lodash@2.4.1',
+54 verbose parsed url   href: 'lodash@2.4.1' }
+55 verbose cache add name="canvas" spec="1.1.3" args=["canvas","1.1.3"]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: '1.1.3',
+56 verbose parsed url   path: '1.1.3',
+56 verbose parsed url   href: '1.1.3' }
+57 verbose addNamed [ 'canvas', '1.1.3' ]
+58 verbose addNamed [ '1.1.3', '1.1.3' ]
+59 silly lockFile e6daf825-canvas-1-1-3 canvas@1.1.3
+60 verbose lock canvas@1.1.3 /Users/harshit/.npm/e6daf825-canvas-1-1-3.lock
+61 verbose cache add name="lodash" spec="2.4.1" args=["lodash","2.4.1"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '2.4.1',
+62 verbose parsed url   path: '2.4.1',
+62 verbose parsed url   href: '2.4.1' }
+63 verbose addNamed [ 'lodash', '2.4.1' ]
+64 verbose addNamed [ '2.4.1', '2.4.1' ]
+65 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+66 verbose lock lodash@2.4.1 /Users/harshit/.npm/8502be2a-lodash-2-4-1.lock
+67 verbose cache add [ 'q@1.0.1', null ]
+68 verbose cache add name=undefined spec="q@1.0.1" args=["q@1.0.1",null]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'q@1.0.1',
+69 verbose parsed url   path: 'q@1.0.1',
+69 verbose parsed url   href: 'q@1.0.1' }
+70 verbose cache add name="q" spec="1.0.1" args=["q","1.0.1"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '1.0.1',
+71 verbose parsed url   path: '1.0.1',
+71 verbose parsed url   href: '1.0.1' }
+72 verbose addNamed [ 'q', '1.0.1' ]
+73 verbose addNamed [ '1.0.1', '1.0.1' ]
+74 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+75 verbose lock q@1.0.1 /Users/harshit/.npm/5720ee24-q-1-0-1.lock
+76 verbose registry.get canvas not expired, no request
+77 verbose registry.get lodash not expired, no request
+78 verbose registry.get q not expired, no request
+79 silly lockFile e6daf825-canvas-1-1-3 canvas@1.1.3
+80 silly lockFile e6daf825-canvas-1-1-3 canvas@1.1.3
+81 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+82 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+83 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+84 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+85 silly resolved [ { name: 'lodash',
+85 silly resolved     version: '2.4.1',
+85 silly resolved     description: 'A utility library delivering consistency, customization, performance, & extras.',
+85 silly resolved     homepage: 'http://lodash.com/',
+85 silly resolved     license: 'MIT',
+85 silly resolved     main: 'dist/lodash.js',
+85 silly resolved     keywords:
+85 silly resolved      [ 'amd',
+85 silly resolved        'browser',
+85 silly resolved        'client',
+85 silly resolved        'customize',
+85 silly resolved        'functional',
+85 silly resolved        'server',
+85 silly resolved        'util' ],
+85 silly resolved     author:
+85 silly resolved      { name: 'John-David Dalton',
+85 silly resolved        email: 'john.david.dalton@gmail.com',
+85 silly resolved        url: 'http://allyoucanleet.com/' },
+85 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+85 silly resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+85 silly resolved     repository: { type: 'git', url: 'https://github.com/lodash/lodash.git' },
+85 silly resolved     engines: [ 'node', 'rhino' ],
+85 silly resolved     files:
+85 silly resolved      [ 'LICENSE.txt',
+85 silly resolved        'lodash.js',
+85 silly resolved        'dist/lodash.js',
+85 silly resolved        'dist/lodash.min.js',
+85 silly resolved        'dist/lodash.compat.js',
+85 silly resolved        'dist/lodash.compat.min.js',
+85 silly resolved        'dist/lodash.underscore.js',
+85 silly resolved        'dist/lodash.underscore.min.js' ],
+85 silly resolved     jam: { main: 'dist/lodash.compat.js', include: [Object] },
+85 silly resolved     volo: { type: 'directory', ignore: [Object] },
+85 silly resolved     _id: 'lodash@2.4.1',
+85 silly resolved     dist:
+85 silly resolved      { shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+85 silly resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz' },
+85 silly resolved     _from: 'lodash@2.4.1',
+85 silly resolved     _npmVersion: '1.3.14',
+85 silly resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+85 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+85 silly resolved     directories: {},
+85 silly resolved     _shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+85 silly resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz',
+85 silly resolved     readme: 'ERROR: No README data found!' },
+85 silly resolved   { name: 'canvas',
+85 silly resolved     description: 'Canvas graphics API backed by Cairo',
+85 silly resolved     version: '1.1.3',
+85 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+85 silly resolved     contributors: [ [Object], [Object], [Object] ],
+85 silly resolved     keywords:
+85 silly resolved      [ 'canvas',
+85 silly resolved        'graphic',
+85 silly resolved        'graphics',
+85 silly resolved        'pixman',
+85 silly resolved        'cairo',
+85 silly resolved        'image',
+85 silly resolved        'images',
+85 silly resolved        'pdf' ],
+85 silly resolved     homepage: 'https://github.com/learnboost/node-canvas',
+85 silly resolved     repository: { type: 'git', url: 'git://github.com/learnboost/node-canvas' },
+85 silly resolved     scripts: { test: 'make test', install: 'node-gyp rebuild' },
+85 silly resolved     dependencies: { nan: '~0.4.1' },
+85 silly resolved     devDependencies: { express: '3.0', jade: '0.28.1', mocha: '*', should: '*' },
+85 silly resolved     engines: { node: '>= 0.6.0' },
+85 silly resolved     main: './lib/canvas.js',
+85 silly resolved     gypfile: true,
+85 silly resolved     bugs: { url: 'https://github.com/learnboost/node-canvas/issues' },
+85 silly resolved     _id: 'canvas@1.1.3',
+85 silly resolved     dist:
+85 silly resolved      { shasum: '93e5ba3988b7e6419b3a1bdc6d948ea0eb6a5e51',
+85 silly resolved        tarball: 'http://registry.npmjs.org/canvas/-/canvas-1.1.3.tgz' },
+85 silly resolved     _from: 'canvas@1.1.3',
+85 silly resolved     _npmVersion: '1.3.11',
+85 silly resolved     _npmUser: { name: 'kangax', email: 'kangax@gmail.com' },
+85 silly resolved     maintainers: [ [Object], [Object] ],
+85 silly resolved     directories: {},
+85 silly resolved     _shasum: '93e5ba3988b7e6419b3a1bdc6d948ea0eb6a5e51',
+85 silly resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.1.3.tgz',
+85 silly resolved     readme: 'ERROR: No README data found!' },
+85 silly resolved   { name: 'q',
+85 silly resolved     version: '1.0.1',
+85 silly resolved     description: 'A library for promises (CommonJS/Promises/A,B,D)',
+85 silly resolved     homepage: 'https://github.com/kriskowal/q',
+85 silly resolved     author:
+85 silly resolved      { name: 'Kris Kowal',
+85 silly resolved        email: 'kris@cixar.com',
+85 silly resolved        url: 'https://github.com/kriskowal' },
+85 silly resolved     keywords:
+85 silly resolved      [ 'q',
+85 silly resolved        'promise',
+85 silly resolved        'promises',
+85 silly resolved        'promises-a',
+85 silly resolved        'promises-aplus',
+85 silly resolved        'deferred',
+85 silly resolved        'future',
+85 silly resolved        'async',
+85 silly resolved        'flow control',
+85 silly resolved        'fluent',
+85 silly resolved        'browser',
+85 silly resolved        'node' ],
+85 silly resolved     contributors: [ [Object], [Object], [Object] ],
+85 silly resolved     bugs: { url: 'http://github.com/kriskowal/q/issues' },
+85 silly resolved     license:
+85 silly resolved      { type: 'MIT',
+85 silly resolved        url: 'http://github.com/kriskowal/q/raw/master/LICENSE' },
+85 silly resolved     main: 'q.js',
+85 silly resolved     repository: { type: 'git', url: 'git://github.com/kriskowal/q.git' },
+85 silly resolved     engines: { node: '>=0.6.0', teleport: '>=0.2.0' },
+85 silly resolved     dependencies: {},
+85 silly resolved     devDependencies:
+85 silly resolved      { jshint: '~2.1.9',
+85 silly resolved        cover: '*',
+85 silly resolved        'jasmine-node': '1.11.0',
+85 silly resolved        opener: '*',
+85 silly resolved        'promises-aplus-tests': '1.x',
+85 silly resolved        grunt: '~0.4.1',
+85 silly resolved        'grunt-cli': '~0.1.9',
+85 silly resolved        'grunt-contrib-uglify': '~0.2.2',
+85 silly resolved        matcha: '~0.2.0' },
+85 silly resolved     scripts:
+85 silly resolved      { test: 'jasmine-node spec && promises-aplus-tests spec/aplus-adapter',
+85 silly resolved        'test-browser': 'opener spec/q-spec.html',
+85 silly resolved        benchmark: 'matcha',
+85 silly resolved        lint: 'jshint q.js',
+85 silly resolved        cover: 'cover run node_modules/jasmine-node/bin/jasmine-node spec && cover report html && opener cover_html/index.html',
+85 silly resolved        minify: 'grunt',
+85 silly resolved        prepublish: 'grunt' },
+85 silly resolved     overlay: { teleport: [Object] },
+85 silly resolved     directories: { test: './spec' },
+85 silly resolved     _id: 'q@1.0.1',
+85 silly resolved     dist:
+85 silly resolved      { shasum: '11872aeedee89268110b10a718448ffb10112a14',
+85 silly resolved        tarball: 'http://registry.npmjs.org/q/-/q-1.0.1.tgz' },
+85 silly resolved     _from: 'q@1.0.1',
+85 silly resolved     _npmVersion: '1.4.4',
+85 silly resolved     _npmUser: { name: 'kriskowal', email: 'kris.kowal@cixar.com' },
+85 silly resolved     maintainers: [ [Object], [Object] ],
+85 silly resolved     _shasum: '11872aeedee89268110b10a718448ffb10112a14',
+85 silly resolved     _resolved: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+85 silly resolved     readme: 'ERROR: No README data found!' } ]
+86 info install lodash@2.4.1 into /Users/harshit/node_modules/gitbook-plugin-autocover
+87 info install canvas@1.1.3 into /Users/harshit/node_modules/gitbook-plugin-autocover
+88 info install q@1.0.1 into /Users/harshit/node_modules/gitbook-plugin-autocover
+89 info installOne lodash@2.4.1
+90 info installOne canvas@1.1.3
+91 info installOne q@1.0.1
+92 info /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/lodash unbuild
+93 info /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas unbuild
+94 info /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/q unbuild
+95 verbose tar unpack /Users/harshit/.npm/lodash/2.4.1/package.tgz
+96 silly lockFile f793c6b4-in-autocover-node-modules-lodash tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/lodash
+97 verbose lock tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/lodash /Users/harshit/.npm/f793c6b4-in-autocover-node-modules-lodash.lock
+98 silly lockFile 05270db1-hit-npm-lodash-2-4-1-package-tgz tar:///Users/harshit/.npm/lodash/2.4.1/package.tgz
+99 verbose lock tar:///Users/harshit/.npm/lodash/2.4.1/package.tgz /Users/harshit/.npm/05270db1-hit-npm-lodash-2-4-1-package-tgz.lock
+100 verbose tar unpack /Users/harshit/.npm/canvas/1.1.3/package.tgz
+101 silly lockFile 1579e21e-in-autocover-node-modules-canvas tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas
+102 verbose lock tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas /Users/harshit/.npm/1579e21e-in-autocover-node-modules-canvas.lock
+103 silly lockFile d0dfd0da-hit-npm-canvas-1-1-3-package-tgz tar:///Users/harshit/.npm/canvas/1.1.3/package.tgz
+104 verbose lock tar:///Users/harshit/.npm/canvas/1.1.3/package.tgz /Users/harshit/.npm/d0dfd0da-hit-npm-canvas-1-1-3-package-tgz.lock
+105 verbose tar unpack /Users/harshit/.npm/q/1.0.1/package.tgz
+106 silly lockFile 5bc3e59c--plugin-autocover-node-modules-q tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/q
+107 verbose lock tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/q /Users/harshit/.npm/5bc3e59c--plugin-autocover-node-modules-q.lock
+108 silly lockFile 12e9f606--harshit-npm-q-1-0-1-package-tgz tar:///Users/harshit/.npm/q/1.0.1/package.tgz
+109 verbose lock tar:///Users/harshit/.npm/q/1.0.1/package.tgz /Users/harshit/.npm/12e9f606--harshit-npm-q-1-0-1-package-tgz.lock
+110 silly gunzTarPerm modes [ '755', '644' ]
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 silly gunzTarPerm modes [ '755', '644' ]
+113 silly gunzTarPerm extractEntry package.json
+114 silly gunzTarPerm extractEntry package.json
+115 silly gunzTarPerm extractEntry package.json
+116 silly gunzTarPerm extractEntry README.md
+117 silly gunzTarPerm extractEntry lodash.js
+118 silly gunzTarPerm extractEntry .npmignore
+119 silly gunzTarPerm extractEntry index.js
+120 silly gunzTarPerm extractEntry README.md
+121 silly gunzTarPerm extractEntry LICENSE
+122 silly gunzTarPerm extractEntry q.js
+123 silly gunzTarPerm extractEntry queue.js
+124 silly gunzTarPerm extractEntry CONTRIBUTING.md
+125 silly gunzTarPerm extractEntry benchmark/compare-with-callbacks.js
+126 silly gunzTarPerm extractEntry benchmark/scenarios.js
+127 silly gunzTarPerm extractEntry binding.gyp
+128 silly gunzTarPerm extractEntry Makefile
+129 silly gunzTarPerm extractEntry LICENSE.txt
+130 silly gunzTarPerm extractEntry Readme.md
+131 silly gunzTarPerm extractEntry .gitmodules
+132 silly gunzTarPerm extractEntry .travis.yml
+133 silly gunzTarPerm extractEntry install
+134 silly gunzTarPerm extractEntry lib/bindings.js
+135 silly gunzTarPerm extractEntry lib/canvas.js
+136 silly gunzTarPerm extractEntry lib/context2d.js
+137 silly gunzTarPerm extractEntry lib/image.js
+138 silly gunzTarPerm extractEntry lib/jpegstream.js
+139 silly gunzTarPerm extractEntry lib/pixelarray.js
+140 silly gunzTarPerm extractEntry lib/pngstream.js
+141 silly gunzTarPerm extractEntry History.md
+142 silly gunzTarPerm extractEntry src/Image.h
+143 silly gunzTarPerm extractEntry src/Canvas.cc
+144 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+145 silly gunzTarPerm extractEntry src/CanvasGradient.h
+146 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+147 silly gunzTarPerm extractEntry src/CanvasPattern.h
+148 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+149 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+150 silly gunzTarPerm extractEntry src/FontFace.cc
+151 silly gunzTarPerm extractEntry src/FontFace.h
+152 silly gunzTarPerm extractEntry src/Image.cc
+153 silly gunzTarPerm extractEntry src/Canvas.h
+154 silly gunzTarPerm extractEntry src/ImageData.cc
+155 silly gunzTarPerm extractEntry src/ImageData.h
+156 silly gunzTarPerm extractEntry src/JPEGStream.h
+157 silly gunzTarPerm extractEntry src/PNG.h
+158 silly gunzTarPerm extractEntry src/PixelArray.cc
+159 silly gunzTarPerm extractEntry src/PixelArray.h
+160 silly gunzTarPerm extractEntry src/Point.h
+161 silly gunzTarPerm extractEntry src/closure.h
+162 silly gunzTarPerm extractEntry src/color.cc
+163 silly gunzTarPerm extractEntry src/color.h
+164 silly gunzTarPerm extractEntry src/init.cc
+165 silly gunzTarPerm extractEntry util/cairo_include.sh
+166 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+167 silly gunzTarPerm extractEntry util/has_lib.sh
+168 silly gunzTarPerm extractEntry util/lib_lookup.sh
+169 silly gunzTarPerm extractEntry dist/lodash.compat.js
+170 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+171 silly lockFile 5bc3e59c--plugin-autocover-node-modules-q tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/q
+172 silly lockFile 5bc3e59c--plugin-autocover-node-modules-q tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/q
+173 silly lockFile 12e9f606--harshit-npm-q-1-0-1-package-tgz tar:///Users/harshit/.npm/q/1.0.1/package.tgz
+174 silly lockFile 12e9f606--harshit-npm-q-1-0-1-package-tgz tar:///Users/harshit/.npm/q/1.0.1/package.tgz
+175 info preinstall q@1.0.1
+176 verbose readDependencies using package.json deps
+177 verbose readDependencies using package.json deps
+178 silly resolved []
+179 verbose about to build /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/q
+180 info build /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/q
+181 verbose linkStuff [ false,
+181 verbose linkStuff   false,
+181 verbose linkStuff   false,
+181 verbose linkStuff   '/Users/harshit/node_modules/gitbook-plugin-autocover/node_modules' ]
+182 info linkStuff q@1.0.1
+183 verbose linkBins q@1.0.1
+184 verbose linkMans q@1.0.1
+185 verbose rebuildBundles q@1.0.1
+186 info install q@1.0.1
+187 info postinstall q@1.0.1
+188 silly gunzTarPerm extractEntry dist/lodash.js
+189 silly gunzTarPerm extractEntry dist/lodash.min.js
+190 silly lockFile 1579e21e-in-autocover-node-modules-canvas tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas
+191 silly lockFile 1579e21e-in-autocover-node-modules-canvas tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas
+192 silly lockFile d0dfd0da-hit-npm-canvas-1-1-3-package-tgz tar:///Users/harshit/.npm/canvas/1.1.3/package.tgz
+193 silly lockFile d0dfd0da-hit-npm-canvas-1-1-3-package-tgz tar:///Users/harshit/.npm/canvas/1.1.3/package.tgz
+194 info preinstall canvas@1.1.3
+195 verbose readDependencies using package.json deps
+196 verbose readDependencies using package.json deps
+197 verbose cache add [ 'nan@~0.4.1', null ]
+198 verbose cache add name=undefined spec="nan@~0.4.1" args=["nan@~0.4.1",null]
+199 verbose parsed url { protocol: null,
+199 verbose parsed url   slashes: null,
+199 verbose parsed url   auth: null,
+199 verbose parsed url   host: null,
+199 verbose parsed url   port: null,
+199 verbose parsed url   hostname: null,
+199 verbose parsed url   hash: null,
+199 verbose parsed url   search: null,
+199 verbose parsed url   query: null,
+199 verbose parsed url   pathname: 'nan@~0.4.1',
+199 verbose parsed url   path: 'nan@~0.4.1',
+199 verbose parsed url   href: 'nan@~0.4.1' }
+200 verbose cache add name="nan" spec="~0.4.1" args=["nan","~0.4.1"]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: '~0.4.1',
+201 verbose parsed url   path: '~0.4.1',
+201 verbose parsed url   href: '~0.4.1' }
+202 verbose addNamed [ 'nan', '~0.4.1' ]
+203 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+204 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+205 verbose lock nan@~0.4.1 /Users/harshit/.npm/d65817a5-nan-0-4-1.lock
+206 silly addNameRange { name: 'nan', range: '>=0.4.1-0 <0.5.0-0', hasData: false }
+207 verbose url raw nan
+208 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+209 verbose url resolved https://registry.npmjs.org/nan
+210 info trying registry request attempt 1 at 23:57:25
+211 verbose etag "2AR77MDTC9FRZIYCVIL3QPO57"
+212 http GET https://registry.npmjs.org/nan
+213 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+214 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+215 silly lockFile f793c6b4-in-autocover-node-modules-lodash tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/lodash
+216 silly lockFile f793c6b4-in-autocover-node-modules-lodash tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/lodash
+217 silly lockFile 05270db1-hit-npm-lodash-2-4-1-package-tgz tar:///Users/harshit/.npm/lodash/2.4.1/package.tgz
+218 silly lockFile 05270db1-hit-npm-lodash-2-4-1-package-tgz tar:///Users/harshit/.npm/lodash/2.4.1/package.tgz
+219 info preinstall lodash@2.4.1
+220 verbose readDependencies using package.json deps
+221 verbose readDependencies using package.json deps
+222 silly resolved []
+223 verbose about to build /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/lodash
+224 info build /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/lodash
+225 verbose linkStuff [ false,
+225 verbose linkStuff   false,
+225 verbose linkStuff   false,
+225 verbose linkStuff   '/Users/harshit/node_modules/gitbook-plugin-autocover/node_modules' ]
+226 info linkStuff lodash@2.4.1
+227 verbose linkBins lodash@2.4.1
+228 verbose linkMans lodash@2.4.1
+229 verbose rebuildBundles lodash@2.4.1
+230 info install lodash@2.4.1
+231 info postinstall lodash@2.4.1
+232 http 304 https://registry.npmjs.org/nan
+233 silly registry.get cb [ 304,
+233 silly registry.get   { date: 'Mon, 30 Jun 2014 06:57:25 GMT',
+233 silly registry.get     server: 'Apache',
+233 silly registry.get     via: '1.1 varnish',
+233 silly registry.get     'last-modified': 'Mon, 30 Jun 2014 06:57:25 GMT',
+233 silly registry.get     'cache-control': 'max-age=30',
+233 silly registry.get     etag: '"2AR77MDTC9FRZIYCVIL3QPO57"',
+233 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+233 silly registry.get     'x-cache': 'HIT',
+233 silly registry.get     'x-cache-hits': '1',
+233 silly registry.get     'x-timer': 'S1404111445.831822,VS0,VE0',
+233 silly registry.get     vary: 'Accept',
+233 silly registry.get     'content-length': '0',
+233 silly registry.get     'keep-alive': 'timeout=10, max=50',
+233 silly registry.get     connection: 'Keep-Alive' } ]
+234 verbose etag nan from cache
+235 silly addNameRange number 2 { name: 'nan', range: '>=0.4.1-0 <0.5.0-0', hasData: true }
+236 silly addNameRange versions [ 'nan',
+236 silly addNameRange   [ '0.3.0-wip',
+236 silly addNameRange     '0.3.0-wip2',
+236 silly addNameRange     '0.3.0',
+236 silly addNameRange     '0.3.1',
+236 silly addNameRange     '0.3.2',
+236 silly addNameRange     '0.4.0',
+236 silly addNameRange     '0.4.1',
+236 silly addNameRange     '0.4.2',
+236 silly addNameRange     '0.4.3',
+236 silly addNameRange     '0.4.4',
+236 silly addNameRange     '0.5.0',
+236 silly addNameRange     '0.5.1',
+236 silly addNameRange     '0.5.2',
+236 silly addNameRange     '0.6.0',
+236 silly addNameRange     '0.7.0',
+236 silly addNameRange     '0.7.1',
+236 silly addNameRange     '0.8.0',
+236 silly addNameRange     '1.0.0',
+236 silly addNameRange     '1.1.0',
+236 silly addNameRange     '1.1.1',
+236 silly addNameRange     '1.1.2',
+236 silly addNameRange     '1.2.0' ] ]
+237 verbose addNamed [ 'nan', '0.4.4' ]
+238 verbose addNamed [ '0.4.4', '0.4.4' ]
+239 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+240 verbose lock nan@0.4.4 /Users/harshit/.npm/795fb663-nan-0-4-4.lock
+241 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+242 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+243 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+244 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+245 silly resolved [ { name: 'nan',
+245 silly resolved     version: '0.4.4',
+245 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+245 silly resolved     main: '.index.js',
+245 silly resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+245 silly resolved     contributors: [ [Object], [Object], [Object] ],
+245 silly resolved     license: 'MIT',
+245 silly resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+245 silly resolved     homepage: 'https://github.com/rvagg/nan',
+245 silly resolved     _id: 'nan@0.4.4',
+245 silly resolved     dist:
+245 silly resolved      { shasum: '9db58eae63cee119807a0d01afd0655d956bea75',
+245 silly resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-0.4.4.tgz' },
+245 silly resolved     _from: 'nan@~0.4.1',
+245 silly resolved     _npmVersion: '1.3.13',
+245 silly resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+245 silly resolved     maintainers: [ [Object] ],
+245 silly resolved     directories: {},
+245 silly resolved     _shasum: '9db58eae63cee119807a0d01afd0655d956bea75',
+245 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-0.4.4.tgz',
+245 silly resolved     readme: 'ERROR: No README data found!' } ]
+246 info install nan@0.4.4 into /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas
+247 info installOne nan@0.4.4
+248 info /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan unbuild
+249 verbose tar unpack /Users/harshit/.npm/nan/0.4.4/package.tgz
+250 silly lockFile 5b938051--modules-canvas-node-modules-nan tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+251 verbose lock tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan /Users/harshit/.npm/5b938051--modules-canvas-node-modules-nan.lock
+252 silly lockFile b4edeef2-arshit-npm-nan-0-4-4-package-tgz tar:///Users/harshit/.npm/nan/0.4.4/package.tgz
+253 verbose lock tar:///Users/harshit/.npm/nan/0.4.4/package.tgz /Users/harshit/.npm/b4edeef2-arshit-npm-nan-0-4-4-package-tgz.lock
+254 silly gunzTarPerm modes [ '755', '644' ]
+255 silly gunzTarPerm extractEntry package.json
+256 silly gunzTarPerm extractEntry README.md
+257 silly gunzTarPerm extractEntry LICENSE
+258 silly gunzTarPerm extractEntry .index.js
+259 silly gunzTarPerm extractEntry nan.h
+260 silly lockFile 5b938051--modules-canvas-node-modules-nan tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+261 silly lockFile 5b938051--modules-canvas-node-modules-nan tar:///Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+262 silly lockFile b4edeef2-arshit-npm-nan-0-4-4-package-tgz tar:///Users/harshit/.npm/nan/0.4.4/package.tgz
+263 silly lockFile b4edeef2-arshit-npm-nan-0-4-4-package-tgz tar:///Users/harshit/.npm/nan/0.4.4/package.tgz
+264 info preinstall nan@0.4.4
+265 verbose readDependencies using package.json deps
+266 verbose readDependencies using package.json deps
+267 silly resolved []
+268 verbose about to build /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+269 info build /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+270 verbose linkStuff [ false,
+270 verbose linkStuff   false,
+270 verbose linkStuff   false,
+270 verbose linkStuff   '/Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules' ]
+271 info linkStuff nan@0.4.4
+272 verbose linkBins nan@0.4.4
+273 verbose linkMans nan@0.4.4
+274 verbose rebuildBundles nan@0.4.4
+275 info install nan@0.4.4
+276 info postinstall nan@0.4.4
+277 verbose about to build /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas
+278 info build /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas
+279 verbose linkStuff [ false,
+279 verbose linkStuff   false,
+279 verbose linkStuff   false,
+279 verbose linkStuff   '/Users/harshit/node_modules/gitbook-plugin-autocover/node_modules' ]
+280 info linkStuff canvas@1.1.3
+281 verbose linkBins canvas@1.1.3
+282 verbose linkMans canvas@1.1.3
+283 verbose rebuildBundles canvas@1.1.3
+284 verbose rebuildBundles [ 'nan' ]
+285 info install canvas@1.1.3
+286 verbose unsafe-perm in lifecycle false
+287 info canvas@1.1.3 Failed to exec install script
+288 info /Users/harshit/node_modules/gitbook-plugin-autocover/node_modules/canvas unbuild
+289 info preuninstall canvas@1.1.3
+290 info uninstall canvas@1.1.3
+291 verbose false,/Users/harshit/node_modules,/Users/harshit/node_modules/gitbook-plugin-autocover/node_modules unbuild canvas@1.1.3
+292 info postuninstall canvas@1.1.3
+293 verbose about to build /Users/harshit/node_modules/gitbook-plugin-autocover
+294 info /Users/harshit/node_modules/gitbook-plugin-autocover unbuild
+295 info preuninstall gitbook-plugin-autocover@0.0.5
+296 info uninstall gitbook-plugin-autocover@0.0.5
+297 verbose true,/Users/harshit/node_modules,/Users/harshit/node_modules unbuild gitbook-plugin-autocover@0.0.5
+298 info postuninstall gitbook-plugin-autocover@0.0.5
+299 error canvas@1.1.3 install: `node-gyp rebuild`
+299 error Exit status 1
+300 error Failed at the canvas@1.1.3 install script.
+300 error This is most likely a problem with the canvas package,
+300 error not with npm itself.
+300 error Tell the author that this fails on your system:
+300 error     node-gyp rebuild
+300 error You can get their info via:
+300 error     npm owner ls canvas
+300 error There is likely additional logging output above.
+301 error System Darwin 13.2.0
+302 error command "node" "/usr/local/bin/npm" "install" "gitbook-plugin-autocover"
+303 error cwd /Users/harshit/Documents/Getting started with Node.js
+304 error node -v v0.10.29
+305 error npm -v 1.4.14
+306 error code ELIFECYCLE
+307 verbose exit [ 1, true ]
